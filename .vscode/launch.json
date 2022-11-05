@@ -1,0 +1,18 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Maya 2022",
+            "type": "cppvsdbg",
+            "request": "launch",
+            "program": "C:\\Program Files\\Autodesk\\Maya2022\\bin\\maya.exe",
+            "cwd": "",
+            "environment": [
+                {
+                    "name": "MAYA_MODULE_PATH",
+                    "value": "${workspaceFolder}\\example;${env:MAYA_MODULE_PATH}"
+                }
+            ]
+        }
+    ]
+}
