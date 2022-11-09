@@ -1,0 +1,38 @@
+#usda 1.0
+(
+    subLayers = [
+        @usd/schema.usda@
+    ]
+)
+
+over "GLOBAL" (
+    customData = {
+        string libraryName       = "skeletonBugIllustration"
+        bool skipCodeGeneration  = true
+    }
+) {
+}
+
+class "WithAdaptorAPI" (
+    inherits = </APISchemaBase>
+)
+{
+    string example:data (
+        customData = {
+            string apiName = "data"
+        }
+        doc = "Property to illustrate skeleton not triggering."
+    )
+}
+
+class "WithoutAdaptorAPI" (
+    inherits = </APISchemaBase>
+)
+{
+    string example:default_data (
+        customData = {
+            string apiName = "default_data"
+        }
+        doc = "Property to illustrate skeleton not triggering."
+    )
+}
