@@ -11,6 +11,10 @@
                 {
                     "name": "MAYA_MODULE_PATH",
                     "value": "${workspaceFolder}\\example;${env:MAYA_MODULE_PATH}"
+                },
+                {
+                    "name": "REPO_ROOT",
+                    "value": "${workspaceFolder}"
                 }
             ]
         }
