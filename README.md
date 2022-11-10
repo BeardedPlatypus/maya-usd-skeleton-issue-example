@@ -79,7 +79,7 @@ CopyFromPrim: mayaObject: arm | prim: arm | value: this-will-be-altered
 CanAdaptForImport: skeleton
 ApplySchemaForImport: skeleton
 CopyFromPrim: mayaObject: skeleton | prim: skeleton | value: this-will-be-altered
-# Opening layer 'F:/git/external/maya-usd-skeleton-issue-example/usd_data/exported_data.usda' for writing # 
+# Opening layer '<...>/maya-usd-skeleton-issue-example/usd_data/exported_data.usda' for writing # 
 CanAdaptForExport: arm
 CanAdaptForExport: arm
 CopyToPrim: mayaObject: arm | prim: arm
@@ -101,7 +101,7 @@ CopyFromPrim: mayaObject: arm | prim: arm | value: this-will-be-altered
 CanAdaptForImport: skeleton
 ApplySchemaForImport: skeleton
 CopyFromPrim: mayaObject: skeleton | prim: skeleton | value: this-will-be-altered
-# Opening layer 'F:/git/external/maya-usd-skeleton-issue-example/usd_data/exported_data.usda' for writing # 
+# Opening layer '<...>/usd_data/exported_data.usda' for writing # 
 CanAdaptForExport: arm
 CanAdaptForExport: arm
 CopyToPrim: mayaObject: arm | prim: arm
