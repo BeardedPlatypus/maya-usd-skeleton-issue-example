@@ -20,10 +20,10 @@ if not cmds.pluginInfo("joint_example", query=True, loaded=True):
 
 # Create a new scene to not have pollution from previous tests.
 cmds.file(new=True, f=True)  
-usd_data_dir = Path(os.env["REPO_ROOT"]) / "usd_data"
+usd_data_dir = Path(os.environ["REPO_ROOT"]) / "usd_data"
 
 # Define a with adaptor and without adaptor to illustrate it not working in either case.
-schemas = ["WithAdaptor", "WithoutAdaptor"]  
+schemas = ["WithAdaptorAPI", "WithoutAdaptorAPI"]  
 
 # -> Import the data: this works as expected.
 import_path = usd_data_dir / "sample_data.usda"
